@@ -1,30 +1,88 @@
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!doctype html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <title>~/aqeel</title>
-    <link href="https://fonts.googleapis.com/css?family=Cantarell" rel="stylesheet" />
-    <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="css/main.css" type="text/css" media="screen" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Aqeel Hashim builds software, internal tools, ERP systems and AI-assisted workflows for growing businesses.">
+    <title>Aqeel Hashim | Software Engineer & Systems Builder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <div class="tsoding-box">
-      <div class="tsoding-links">
-        <h1>Aqeel</h1>
-        <a class="tsoding-text-link tsoding-text-link-first" href="#" title="schedule">Dive In</a>
-      </div>
-      <div class="tsoding-links">
-        <h2>Links</h2>
-        <a href="https://github.com/aqeel-hashim" target="_blank" title="GitHub">
-          <img class="tsoding-icon-link" src="images/github.png" />
-        </a>
-        <a href="https://www.linkedin.com/in/m-aqeel-hashim/" target="_blank" title="Patreon">
-          <img class="tsoding-icon-link" src="images/linkedin.svg" />
-        </a>
-        <a href="https://github.com/aqeel-hashim/aqeel-hashim.github.io/releases/download/resume/AqeelHashim.pdf" target="_blank" title="Resume">
-          <img class="tsoding-icon-link" src="images/resume.svg" />
-        </a>
-      </div>
-    </div>
+    <header class="site-header">
+      <a class="wordmark" href="#top">~/aqeel</a>
+      <nav aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#stack">Stack</a>
+        <a href="https://github.com/aqeel-hashim/aqeel-hashim.github.io/releases/download/resume/AqeelHashim.pdf">CV</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="intro-title">
+        <div class="hero-copy">
+          <p class="prompt">hello, world</p>
+          <h1 id="intro-title">Aqeel Hashim</h1>
+          <p class="role">Software engineer, engineering manager and systems builder.</p>
+          <p class="intro">I turn operational problems into useful software: ERPs, internal tools, data workflows, APIs and AI-assisted systems. Based in Colombo and experienced with distributed teams across the UAE and US.</p>
+          <div class="actions">
+            <a class="button primary" href="https://github.com/aqeel-hashim/aqeel-hashim.github.io/releases/download/resume/AqeelHashim.pdf">Download CV</a>
+            <a class="button" href="mailto:aaqelh@gmail.com">Email me</a>
+          </div>
+          <div class="social-links" aria-label="External profiles">
+            <a href="https://github.com/aqeel-hashim" target="_blank" rel="noreferrer"><img src="images/github.png" alt="">GitHub</a>
+            <a href="https://www.linkedin.com/in/m-aqeel-hashim/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://biskuit.io" target="_blank" rel="noreferrer">Biskuit.io</a>
+          </div>
+        </div>
+        <img class="portrait" src="images/aqeel.jpg" alt="Portrait of Aqeel Hashim">
+      </section>
+
+      <section class="section" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="prompt">selected_work</p>
+          <h2 id="work-title">Systems built around real operations</h2>
+        </div>
+        <div class="work-list">
+          <article>
+            <div><span>01</span><h3>Biskuit</h3></div>
+            <p>Internal systems for scaling companies, including a React and Go CRM, PostgreSQL infrastructure, Docker deployments, and OpenRouter-based RAG and agentic workflows.</p>
+          </article>
+          <article>
+            <div><span>02</span><h3>TiLi Star Trading</h3></div>
+            <p>A production ERP delivered in 90 days for FMCG sales, inventory and warehousing, using Go, React, PostgreSQL, Flutter, MinIO and Docker Compose.</p>
+          </article>
+          <article>
+            <div><span>03</span><h3>KG Technologies</h3></div>
+            <p>Led software delivery across Zig and Node.js services, Vue and React interfaces, AI SDK work, containerized infrastructure, K3s and CI/CD.</p>
+          </article>
+          <article>
+            <div><span>04</span><h3>Neo Graphics</h3></div>
+            <p>Owned a Microsoft Dynamics 365 rollout, custom C#/.NET pricing and Python connector tooling, plus Power BI reporting for production and costs.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section stack" id="stack" aria-labelledby="stack-title">
+        <div class="section-heading">
+          <p class="prompt">toolbox</p>
+          <h2 id="stack-title">Technologies I work with</h2>
+        </div>
+        <dl>
+          <div><dt>Languages</dt><dd>C#, Go, Zig, Python, JavaScript, TypeScript, C</dd></div>
+          <div><dt>Applications</dt><dd>React, Vue.js, Node.js, .NET, HTMX, Tailwind CSS, Flutter</dd></div>
+          <div><dt>Data & AI</dt><dd>PostgreSQL, Power BI, Supabase, MinIO, RAG, OpenRouter</dd></div>
+          <div><dt>Delivery</dt><dd>Docker Compose, K3s, Git, CI/CD, AWS, Linux</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer>
+      <p>Colombo, Sri Lanka</p>
+      <a href="mailto:aaqelh@gmail.com">aaqelh@gmail.com</a>
+    </footer>
   </body>
 </html>
-
